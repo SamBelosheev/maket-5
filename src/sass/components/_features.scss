@@ -1,0 +1,36 @@
+.features{
+  max-width: $content-width;
+  @extend %font-prim;
+}
+
+.features-conteyner{
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.features-mobile{
+  border-radius: 45px;
+  box-shadow: 0 2px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.features-right{
+  padding-top: 70px;
+}
+
+.features-box{
+  display: flex;
+}
+
+.features-title{
+  font-size: 38px;
+}
+
+.features-box-title{
+  margin-left: 30px;
+  font-size: 21px;
+}
+
+.features-box-text{
+  margin-left: 30px;
+  font-size: 16px;
+}

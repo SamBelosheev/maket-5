@@ -1,0 +1,13 @@
+.sponsors{
+  max-width: $content-width;
+  @extend %font-prim;
+}
+
+.sponsors-conteyner{
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsor-title{
+  font-size: 22px;
+}

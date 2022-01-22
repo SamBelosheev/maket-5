@@ -1,0 +1,31 @@
+.food{
+  max-width: $content-width;
+  background-color: $color-main;
+  @extend %font-prim;
+}
+
+.food-conteyner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.food-title{
+  font-size: 38px;
+  color: #FFFFFF;
+}
+
+.food-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @extend %font-prim;
+  font-size: 18px;
+  color: $color-footer;
+  width: 184px;
+  height: 52px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}

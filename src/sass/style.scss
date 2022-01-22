@@ -1,0 +1,19 @@
+//abstrackt
+@import "abstrackt/constans";
+@import "abstrackt/mixin";
+@import "abstrackt/placeholder";
+
+//base
+@import "base/header";
+@import "base/footer";
+@import "base/main";
+
+//components
+@import "components/update";
+@import "components/food";
+@import "components/testimonials";
+@import "components/sponsors";
+@import "components/features";
+
+//layout
+@import "layout/conteyners";

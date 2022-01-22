@@ -1,0 +1,21 @@
+.conteyner{
+  max-width: $conteyner-width;
+  margin: auto;
+}
+
+.conteyner-big{
+  max-width: $another-conteyner-big-width;
+  margin: auto;
+}
+
+.layout-2-column {
+  @include columns ($width: 45%);
+}
+
+.layout-4-column {
+  @include columns ($width: 20%);
+}
+
+.layout-3-column {
+  @include columns ($width: 30%);
+}

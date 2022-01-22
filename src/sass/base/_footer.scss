@@ -1,0 +1,73 @@
+.footer{
+  background-color: $color-footer;
+  @extend %font-prim;
+  color: #FFFFFF;
+  max-width: $content-width;
+}
+
+.footer-conteyner{
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.footer-logo{
+  font-size: 31px;
+}
+
+.footer-title{
+  font-size: 21px;
+}
+
+.footer-first{
+  font-size: 16px;
+  margin-top: -20px;
+}
+
+.footer-second{
+  font-size: 16px;
+}
+
+.footer-therd{
+  font-size: 16px;
+}
+
+.footer-four{
+  font-size: 16px;
+}
+
+.footer-navigation{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-top: 15px;
+  cursor: pointer;
+  &:hover{
+    color: gold;
+    text-decoration: underline;
+  }
+}
+
+.footer-input{
+  display: flex;
+}
+
+.email{
+  font-size: 18px;
+  width: 229px;
+  height: 35px;
+}
+
+.send-button{
+  background-color: $color-main;
+  color: #FFFFFF;
+  height: 41px;
+  width: 131px;
+  cursor: pointer;
+  &:hover{
+    color: gold;
+  }
+}

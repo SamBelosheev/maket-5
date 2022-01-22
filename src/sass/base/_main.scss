@@ -1,0 +1,25 @@
+.main{
+  max-width: $content-width;
+  @extend %font-prim;
+  background-image: url("../img/main/main-fon.svg");
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.main-information{
+  width: 500px;
+  margin-top: 120px;
+}
+
+.main-title{
+  @extend %font-add;
+  font-size: 51px;
+  color: #FFFFFF;
+}
+
+.main-text{
+  font-size: 20px;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+
